@@ -74,6 +74,7 @@ class RoundedVideo(Widget):
     def _update_texture(self, *args):
         if self.ratio == 'full':
             self.roundrect.texture = self._video.texture
+            print('update')
         # elif self.ratio == '16/9':
         #     print('16/9')
         else:

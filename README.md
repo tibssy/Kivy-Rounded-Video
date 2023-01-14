@@ -4,6 +4,7 @@ Requirements:
   - Python: 3.7 - 3.10
   - Kivy: 2.1.0
   - NumPy
+  - ffpyplayer
 
 This Demo Project is using the kivy.core.video texture and put it on a Widget canvas to be able to apply rounded corner on the displayed video.
 

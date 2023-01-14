@@ -20,7 +20,7 @@ Builder.load_string('''
         source: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
         radius: [20,20,20,20]
         preview: 'preview.png'
-        ratio: 'original'
+        ratio: 'full'
 ''')
 
 class MyLayout(BoxLayout):
