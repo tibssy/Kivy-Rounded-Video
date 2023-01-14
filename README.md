@@ -1,5 +1,39 @@
 # Kivy-Rounded-Video
 
+Requirements:
+  - Python: 3.7 - 3.10
+  - Kivy: 2.1.0
+  - NumPy
+
+This Demo Project use the kivy.core.video texture and put is on a Widget canvas to be able to apply rounded corner on the displayed video.
+
+Usage:
+
+  In py:
+  
+    from roundedvideo import RoundedVideo
+    
+    video = RoundedVideo(source='video_file')
+    video.radius = [20, 20, 20, 20]
+    video.preview = 'loading_image'
+    video.ratio = 'original' # can be "original", "full" ...
+    
+  or in kv:
+   
+    #:import RoundedVideo roundedvideo.RoundedVideo
+    
+    RoundedVideo:
+        source: 'video_file'
+        radius: [20,20,20,20]
+        preview: 'loading_image'
+        ratio: 'original'
+
+   
+    
+
+
+Work in Progress...
+
 
 ![Screenshot_20230114_073504](https://user-images.githubusercontent.com/72749248/212461593-8fbea06b-b32c-441c-9793-10cf3ebb6f30.png)
 
